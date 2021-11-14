@@ -1,2 +1,3 @@
 # currirulumvitae_chapterone
-&copy; Shuseel Maharjan
+
+Source code for Curriculum Vitae with html and css.
