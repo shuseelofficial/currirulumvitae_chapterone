@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+}
+.main{
+    background-color: rgb(211, 211, 211);
+    width: 100%;
+}
+.hero{
+    position: relative;
+    background-color: rgb(210, 223, 235);
+    width: 80%;
+    margin-left: 10%;
+}
+/**CV Heading**/
+.heading{
+    text-align: center;
+    
+}
+.heading h1{
+    top: 35px;
+    color: rgb(0, 87, 163);
+    font-size: 38pt;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+/** end of CV Heading**/
+/**start of name and contact**/
+.name{
+    padding: 60px;
+    position: relative;
+}
+.name h1{
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22pt;
+}
+.name h2{
+    color: rgb(31, 31, 83);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 16pt;
+}
+/**Profile image**/
+.profile img{
+    width: 12%;
+    display: flex;
+    margin-left: 75%;
+    position: absolute;
+    margin-top: -200px;
+}
+/**Objectives**/
+.objectives{
+    position: relative;
+    margin-top: -50px;
+}
+.obj_back{
+    width: 90%;
+    background-color: burlywood;
+    margin-left: 60px;
+    height: 33px;
+}
+.objectives h1{
+    color: darkblue;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    margin-left: 10px;
+    padding: 5px;
+    
+    
+}
+.objectives p{
+    width: 85%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    margin-left: 80px;
+    text-align: justify;
+    margin-top: 10px;
+}
+/**start of personal details**/
+.personal_bg{
+    width: 90%;
+    background-color: burlywood;
+    margin-left: 60px;
+    height: 33px;
+}
+.personal_details h1{
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    height: 25px;
+    margin-left: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    
+}
+.title{
+    position: absolute ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title_brief{
+    margin-top: 15px;
+}
+.title h1{
+    font-size: 14pt;
+    color: rgb(8, 10, 67);
+    margin-left: 75px;
+    margin-top: -10px;
+}
+
+.details{
+    position: relative;
+
+}
+.all_brief{
+    margin-top: 15px;
+}
+.details h1{
+    font-size: 14pt;
+    color:rgb(8, 10, 67) ;
+    margin-left: 40%;
+    margin-top: -10px;
+}
+/**start of education**/
+.education{
+    width: 90%;
+    background-color: burlywood;
+    margin-left: 60px;
+    height: 33px;
+}
+.education h1{
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    height: 25px;
+    margin-left: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    position: relative;
+}
+.education table {
+    width: 90%;
+    margin-top: 10px;
+    border-collapse: collapse;
+    margin-left: 40px;
+    position: relative;
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.education table, th, td {
+    border: 1px solid black;
+}
+.education_head th{
+    background-color: rgb(19, 97, 0);
+    color: #fff;
+    position: relative;
+}
+.institute{
+    text-align: left;
+}
+.info td{
+    text-align: center;
+}
+.section_institute{
+    text-align: left;
+}
+/**training section**/
+.training{
+    
+    margin-top: 120px;
+}
+.training_heading {
+    width: 90%;
+    background-color: burlywood;
+    margin-left: 60px;
+    height: 33px;
+}
+.training_heading h1{
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    height: 25px;
+    margin-left: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    position: relative;
+}
+.training_list{
+    position: relative;
+    margin-left: 60px;
+
+}
+.training_list ol{
+    margin-top: 10px;
+    
+}
+.training_list ol li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    color: rgb(8, 10, 67);
+    margin-left: 25px;
+    padding: 5px;
+    font-weight: bold;
+}
+/**comment**/
+.comment{
+    width: 95%;
+    position: relative;
+}
+.comment p{
+    margin-left: 60px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    padding: 15px;
+    margin-top: 20px;
+    font-style: italic;
+}
+.footer{
+    width: 100%;
+    position: relative;
+}
+.foot_text{
+    background-color: rgb(0, 18, 99);
+    height: 50px;
+}
+.foot_text h1{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 15px;
+    text-align: center;
+}
+.foot_text h1 a{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+.foot_text h1 a :hover{
+    color: rgb(214, 230, 73);
+}
